@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  
+.container{
+    width: 1300px;
+    margin: auto;
+display: block;
+}
+
+   .AA {background: lightgreen;
+            width: 28%;
+            border: 1px solid;
+            height: 100%;
+            align-items: center;
+            padding: 10px 549px;
+            margin: 58px 0px;
+        }
+    </style>
+</head>
+<body>
+    <section><div class="container">
+<div class="AA">
+    <h1>Take input from the user</h1>
+    <P> In this program we are<mark> Edit & dellet the input</mark></P>
+
+    <input type="text" class="sim" placeholder="give data">
+
+
+    <input type="submit" onclick="abc()" value="submit">
+   
+
+<ol id="by">
+
+</ol>
+
+</div>
+</div>
+</section>
+
+<script></script>
+    <script>
+function abc(){
+let v = document.querySelector(".sim").value;
+var li= document.createElement("li");
+li.appendChild(document.createTextNode(v))
+li.innerHTML+="<button onclick='this.parentNode.remove()'>remove</button>";
+document.getElementById("by").appendChild(li);
+
+
+document.querySelector(".sim").value=" ";
+
+}
+   </script> <!--this method is using single data by (alert)  -->
+<script> 
+      // this is the edit button:
+    
+      const editButton = document.createElement('button');
+            editButton.innerText= "EDIT";
+            newLi.appendChild(editButton);
+            editButton.addEventListener('click', editing);
+            
+        };
+        inputTask.value = "" ; 
+        
+     });
+    
+    
+</script>
+
+
+</body>
+</html>

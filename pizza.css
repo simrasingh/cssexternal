@@ -1,0 +1,136 @@
+body{
+    font-family: 'Inria Serif', serif;
+font-family: 'Oswald', sans-serif;
+}
+*{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+}
+.bata img {
+    width: 100%;
+    vertical-align: middle;
+}
+.bati h3 {
+    font-size: 30px;
+    
+}
+.bati p {
+    font-size: 1rem;
+    line-height: 1.6;
+    
+    
+}
+.bati h6 {
+    font-size: 18px;
+    line-height: 2.6;
+    color: #f12c0e;
+}
+.bati a {
+    color: black;
+    border: 0 transparent;
+    background: #f0f2f5;
+    padding: 7px 15px 7px 15px;
+    line-height: 1.5;
+}
+
+.mata {
+    display: flex;
+    padding-top: 43px;
+    width: 100%;
+    gap:45px;
+}
+
+.contanier {
+    width: 1024px;
+    display: block;
+    margin: auto;
+}
+
+.mata {
+    display: flex;
+    padding-top: 45px;
+    gap:45px;
+}
+.col5 {
+    display: flex;
+    width: 100%;
+    /* gap: 40px; */
+    padding-top: 45px;
+    gap: 45px;
+}
+.mata {
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+section {
+    background: #f0f2f5;
+}
+.bati {
+    width: 50%;
+    margin: 20px;
+}
+.bata {
+    width: 50%;
+}   
+.pitaji {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    background: #ffff;
+    /* margin: 2px 0px 0px 0px; */
+    /* gap: 6px; */
+}
+@media only screen and (max-width:767px) and (min-width:320px){
+
+.pitaji {
+        width: 100%;
+        flex-direction: column;
+        padding: 15px;
+        transition: width 2s,height 2s;
+    }
+    
+    .contanier {
+        width: 375px;
+         display: block;
+        margin: auto;
+    }
+    .mata {
+        flex-direction: column;
+    }
+    .col5 {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .bata {
+        width: 100%;
+    }
+    .bati p {
+
+        width: 211px;
+        line-height: 2.5;
+    }
+    .bati {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:767px){
+
+
+
+    .contanier {
+        width: 767px;
+         display: block;
+        margin: auto;
+    }
+
+.mata{flex-direction: column;}
+.col5{flex-direction: column;}
+.pitaji {
+    width: 100%;
+    transition: width 2s,height 2s;
+}
+
+
+}
